@@ -50,7 +50,6 @@ DarkRP.disabledDefaults["jobs"] = {
     ["chief"]     = false,
     ["Head Security Guard"]   = false,
     ["Security Guard"]   = false,
-    ["Security Guard"]   = false,
     ["Mangl"]   = false,
     ["Freddy FazBear"]   = false,
     ["Bonnie The Bunny"]   = false,
