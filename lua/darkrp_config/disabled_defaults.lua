@@ -11,8 +11,8 @@ DarkRP comes with a bunch of default things:
 
 If you want to disable or replace the default things, you should disable them here
 
-Note: if you want to have e.g. edit the official medic job, you MUST disable the default one in this file!
-You can copy the medic from DarkRP and paste it in darkrp_config/jobs.lua
+Note: If you want to edit the official medic job, you MUST disable the default one in this file!
+You can copy the medic job from DarkRP and paste it into darkrp_config/jobs.lua
 ---------------------------------------------------------------------------]]
 
 
@@ -40,14 +40,31 @@ DarkRP.disabledDefaults["modules"] = {
 }
 
 --[[---------------------------------------------------------------------------
-The disabled default jobs. true to disable, false to enable.
+This special version of DarkRP Modifications has all the custom FNAF jobs added.
 
-NOTE: If you disable a job and remake it, expect things that rely on the job to stop working
-e.g. you disable the gundealer and you make a new job as TEAM_GUN. If you want the shipments/door groups/etc. to
-work for your custom job, remake them to include your job as well.
+NOTE: If you disable a job and create a new one, expect anything that relies on the original job to stop working
+For example, if you disable the gundealer and make a new job as TEAM_GUN, shipments, door groups, and other dependencies won't work automatically
+To fix this, make sure to update or recreate them to include your new job.
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["jobs"] = {
-    ["chief"]     = false,
+    ["thepchief"]     = false,
+    ["headofallfsecurity"]   = false,
+    ["henrymiller"]   = false,
+	["thephoneguy"]   = false,
+	["avemiller"]   = false,
+	["algebrateacher"]   = false,
+	["ztm_trashman"] = true,
+	["freddyssecurity"]   = false,
+    ["mangle"]   = false,
+    ["freddyff"]   = false,
+    ["becomebonnie"]   = false,
+    ["jj"]   = false,
+    ["balloonboy"]   = false,
+    ["becomefoxy"]   = false,
+    ["toyfreddy"]   = false,
+    ["toybonnie"]   = false,
+    ["toychica"]   = false,
+    ["becomechica"]   = false,
     ["citizen"]   = false,
     ["cook"]      = false, --Hungermod only
     ["cp"]        = false,
