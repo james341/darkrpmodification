@@ -48,6 +48,19 @@ work for your custom job, remake them to include your job as well.
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["jobs"] = {
     ["chief"]     = false,
+    ["Head Security Guard"]   = false,
+    ["Security Guard"]   = false,
+    ["Security Guard"]   = false,
+    ["Mangl"]   = false,
+    ["Freddy FazBear"]   = false,
+    ["Bonnie The Bunny"]   = false,
+    ["Balloon Girl"]   = false,
+    ["Balloon Boy"]   = false,
+    ["Foxy The Pirate Fox"]   = false,
+    ["Toy Freddy"]   = false,
+    ["Toy Bonnie"]   = false,"]   = false,
+    ["Toy Chica"]   = false,
+    ["Chica The Chicken"]   = false,
     ["citizen"]   = false,
     ["cook"]      = false, --Hungermod only
     ["cp"]        = false,
