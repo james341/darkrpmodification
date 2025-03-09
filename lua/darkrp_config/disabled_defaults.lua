@@ -40,43 +40,40 @@ DarkRP.disabledDefaults["modules"] = {
 }
 
 --[[---------------------------------------------------------------------------
-This special version of DarkRP Modifications has all the custom FNAF jobs added.
-
-If you disable a job and create a new one, expect anything that relies on the original job to stop working
-For example, if you disable the gundealer and make a new job as TEAM_GUN, shipments, door groups, and other dependencies won't work automatically
-To fix this, make sure to update or recreate them to include your new job.
+Special version of DarkRP Modifications has all the custom FNAF jobs Added.
+All jobs have a name next to them to make it easier to understand which jobs you might want to disable.
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["jobs"] = {
-    ["thepchief"]     = false,
-    ["headofallfsecurity"]   = false,
-    ["henrymiller"]   = false,
-    ["thephoneguy"]   = false,
-    ["davemiller"]   = false,
-     ["algebrateacher"]   = false,
-     ["ztm_trashman"] = false,
-     ["freddyssecurity"]   = false,
-     ["mangle"]   = false,
-     ["freddyff"]   = false,
-     ["becomebonnie"]   = false,
-     ["jj"]   = false,
-     ["health_inspector"]   = false,
-     ["balloonboy"]   = false,
-    ["becomefoxy"]   = false,
-    ["toyfreddy"]   = false,
-    ["toybonnie"]   = false,
-    ["toychica"]   = false,
-    ["becomechica"]   = false,
-    ["citizen"]   = false,
-    ["crykids"]   = false,
-    ["cp"]        = false,
-    ["gangster"]  = false,
-    ["gundealer"] = false,
-    ["hobo"]      = false,
-    ["mayor"]     = false,
-    ["medic"]     = false,
-    ["nonvipfreddysshooter"]   = false,
-    ["cook"]      = false, 
-    ["mobboss"]   = false,
+    ["thepchief"]     = false, -- Police Chief
+    ["headofallfsecurity"]   = false, -- Head Security Guard
+    ["henrymiller"]   = false, -- Henry Miller -- Day Shift at Freddy's gamemode only!
+	["thephoneguy"]   = false, -- Phone Guy -- Day Shift at Freddy's gamemode only!
+	["davemiller"]   = false, -- Dave Miller -- Day Shift at Freddy's gamemode only!
+	["algebrateacher"]   = false, -- Old Sport -- Day Shift at Freddy's gamemode only!
+	["ztm_trashman"] = false, -- Citizen -- Day Shift at Freddy's gamemode only!
+	["freddyssecurity"]   = false, -- Security Guard
+    ["mangle"]   = false, -- Toy Mangle
+    ["freddyff"]   = false, -- Freddy FazBear
+    ["becomebonnie"]   = false, -- Bonnie The Bunny
+    ["jj"]   = false, -- Balloon Girl
+    ["health_inspector"]   = false, -- Health Inspector -- Day Shift at Freddy's gamemode only!
+	["balloonboy"]   = false, -- Balloon Boy
+    ["becomefoxy"]   = false, -- Foxy The Pirate Fox
+    ["toyfreddy"]   = false, -- Toy Freddy
+    ["toybonnie"]   = false, -- Toy Bonnie
+    ["toychica"]   = false, -- Toy Chica
+    ["becomechica"]   = false, -- Chica The Chicken
+    ["citizen"]   = false, -- Citizen -- Known as Child, in the Day Shift at Freddy's gamemode!
+    ["crykids"]   = false, -- Crying Child -- Day Shift at Freddy's gamemode only!
+	["cp"]        = false, -- Police Officer
+    ["gangster"]  = false, -- Gangster
+    ["gundealer"] = false, -- Gun Dealer
+    ["hobo"]      = false, -- Hobo
+    ["mayor"]     = false, -- Mayor
+    ["medic"]     = false, -- Medic
+    ["nonvipfreddysshooter"]   = false, -- Man in A Candy Cat Suit -- Day Shift at Freddy's gamemode only!
+	["cook"]      = false, -- Cook
+	["mobboss"]   = false, -- Mob Boss
 }
 
 --[[---------------------------------------------------------------------------
