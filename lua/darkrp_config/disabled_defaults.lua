@@ -42,7 +42,7 @@ DarkRP.disabledDefaults["modules"] = {
 --[[---------------------------------------------------------------------------
 This special version of DarkRP Modifications has all the custom FNAF jobs added.
 
-NOTE: If you disable a job and create a new one, expect anything that relies on the original job to stop working
+If you disable a job and create a new one, expect anything that relies on the original job to stop working
 For example, if you disable the gundealer and make a new job as TEAM_GUN, shipments, door groups, and other dependencies won't work automatically
 To fix this, make sure to update or recreate them to include your new job.
 ---------------------------------------------------------------------------]]
@@ -53,27 +53,30 @@ DarkRP.disabledDefaults["jobs"] = {
 	["thephoneguy"]   = false,
 	["davemiller"]   = false,
 	["algebrateacher"]   = false,
-	["ztm_trashman"] = true,
+	["ztm_trashman"] = false,
 	["freddyssecurity"]   = false,
     ["mangle"]   = false,
     ["freddyff"]   = false,
     ["becomebonnie"]   = false,
     ["jj"]   = false,
-    ["balloonboy"]   = false,
+    ["health_inspector"]   = false,
+	["balloonboy"]   = false,
     ["becomefoxy"]   = false,
     ["toyfreddy"]   = false,
     ["toybonnie"]   = false,
     ["toychica"]   = false,
     ["becomechica"]   = false,
     ["citizen"]   = false,
-    ["cook"]      = false, --Hungermod only
-    ["cp"]        = false,
+    ["crykids"]   = false,
+	["cp"]        = false,
     ["gangster"]  = false,
     ["gundealer"] = false,
     ["hobo"]      = false,
     ["mayor"]     = false,
     ["medic"]     = false,
-    ["mobboss"]   = false,
+    ["nonvipfreddysshooter"]   = false,
+	["cook"]      = false, 
+	["mobboss"]   = false,
 }
 
 --[[---------------------------------------------------------------------------
