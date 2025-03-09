@@ -1,4 +1,4 @@
-Fnaf- DarkRP modifications addon
+FnafRP- DarkRP Modifications
 ==================
 for DarkRP 2.5.0 and above.
 
