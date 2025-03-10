@@ -1,5 +1,5 @@
 --[[---------------------------------------------------------------------------
-Fnaf-DarkRP darkrpmodifications Disabled defaults
+DarkRP disabled defaults
 ---------------------------------------------------------------------------
 
 FnaFRP - comes with a bunch of default things:
@@ -9,7 +9,7 @@ FnaFRP - comes with a bunch of default things:
     - entities (like the money printer)
     and many more
 
-Uh, hey, hey! Just a quick note—uh, if you wanna, y'know, edit the official medic job, you uh, MUST disable the default one in this file! Uh, 
+Uh, hey, hey! Just a quick note uh, if you wanna, y'know, edit the official medic job, you uh, MUST disable the default one in this file! Uh, 
 yeah. You can, uh, copy the medic job from DarkRP and just, uh, paste it into darkrp_config/jobs.lua. Alright, uh, good luck!
 ---------------------------------------------------------------------------]]
 
@@ -38,7 +38,7 @@ DarkRP.disabledDefaults["modules"] = {
 }
 
 --[[---------------------------------------------------------------------------
-Hello? Hello, hello? Uh, hey! I wanted to record a message for you, to help you get settled in on your first day editing the new Fnaf-DarkRP 2.7.0 – DarkRP Modification Addon 
+Hello? Hello, Hello? Uh, hey! I wanted to record a message for you, to help you get settled in on your first day editing the new Fnaf-DarkRP 2.7.0 – DarkRP Modification Addon 
 So Uh, yeah, this version has all the custom FNaF jobs added! Pretty cool, huh? Uh, all the jobs have a name next to them, so it 
 should be, uh, easier to figure out which ones you might wanna disable. Alright, uh, hope that helps! Stay safe… and, uh, good luck.
 ---------------------------------------------------------------------------]]
@@ -72,9 +72,10 @@ DarkRP.disabledDefaults["jobs"] = {
     ["hobo"]      = false, -- Hobo
     ["mayor"]     = false, -- Mayor
     ["medic"]     = false, -- Medic
-    ["nonvipfreddysshooter"]   = false, -- Man in A Candy Cat Suit -- Day Shift at Freddy's gamemode only!
-	["cook"]      = false, -- Cook -- for HungerMode only. Just so you know!
-	["mobboss"]   = false, -- Mob Boss
+    ["drugdealer"]   = false, -- Drug Dealer
+	["nonvipfreddysshooter"]   = false, -- Man in A Candy Cat Suit -- Day Shift at Freddy's gamemode only!
+	["cook"]      = true, -- Cook -- HungerMode only
+	["mobboss"]   = false, 
 }
 
 --[[---------------------------------------------------------------------------
