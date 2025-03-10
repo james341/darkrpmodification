@@ -38,7 +38,7 @@ DarkRP.disabledDefaults["modules"] = {
 }
 
 --[[---------------------------------------------------------------------------
-Hello? Hello, hello? Uh, hey! I wanted to record a message for you, to help you get settled in on your first day editing the new DarkRP 2.7.0 – DarkRP Modifications Addon. 
+Hello? Hello, hello? Uh, hey! I wanted to record a message for you, to help you get settled in on your first day editing the new Fnaf-DarkRP 2.7.0 – DarkRP Modification Addon 
 So Uh, yeah, this version has all the custom FNaF jobs added! Pretty cool, huh? Uh, all the jobs have a name next to them, so it 
 should be, uh, easier to figure out which ones you might wanna disable. Alright, uh, hope that helps! Stay safe… and, uh, good luck.
 ---------------------------------------------------------------------------]]
