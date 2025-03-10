@@ -2,17 +2,15 @@
 DarkRP disabled defaults
 ---------------------------------------------------------------------------
 
-DarkRP comes with a bunch of default things:
+FnaFRP - comes with a bunch of default things:
     - a load of modules
     - default jobs
     - shipments and guns
     - entities (like the money printer)
     and many more
 
-If you want to disable or replace the default things, you should disable them here
-
-Note: If you want to edit the official medic job, you MUST disable the default one in this file!
-You can copy the medic job from DarkRP and paste it into darkrp_config/jobs.lua
+Uh, hey, hey! Just a quick note—uh, if you wanna, y'know, edit the official medic job, you uh, MUST disable the default one in this file! Uh, 
+yeah. You can, uh, copy the medic job from DarkRP and just, uh, paste it into darkrp_config/jobs.lua. Alright, uh, good luck!
 ---------------------------------------------------------------------------]]
 
 
@@ -40,8 +38,9 @@ DarkRP.disabledDefaults["modules"] = {
 }
 
 --[[---------------------------------------------------------------------------
-Special version of DarkRP Modifications has all the custom FNAF jobs Added.
-All jobs have a name next to them to make it easier to understand which jobs you might want to disable.
+Hello? Hello, hello? Uh, hey! I wanted to record a message for you, to help you get settled in on your first day editing the new DarkRP 2.7.0 – DarkRP Modifications Addon. 
+So Uh, yeah, this version has all the custom FNaF jobs added! Pretty cool, huh? Uh, all the jobs have a name next to them, so it 
+should be, uh, easier to figure out which ones you might wanna disable. Alright, uh, hope that helps! Stay safe… and, uh, good luck.
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["jobs"] = {
     ["thepchief"]     = false, -- Police Chief
