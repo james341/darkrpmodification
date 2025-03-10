@@ -73,7 +73,7 @@ DarkRP.disabledDefaults["jobs"] = {
     ["mayor"]     = false, -- Mayor
     ["medic"]     = false, -- Medic
     ["nonvipfreddysshooter"]   = false, -- Man in A Candy Cat Suit -- Day Shift at Freddy's gamemode only!
-	["cook"]      = false, -- Cook
+	["cook"]      = false, -- Cook -- for HungerMode only. Just so you know!
 	["mobboss"]   = false, -- Mob Boss
 }
 
