@@ -44,7 +44,7 @@ should be, uh, easier to figure out which ones you might wanna disable. Alright,
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["jobs"] = {
     ["thepchief"]     = false, -- Police Chief
-    ["headofallfsecurity"]   = false, -- Head Security Guard
+    ["headofallfsecurity"]   = false, -- Head Security Guard1
     ["henrymiller"]   = false, -- Henry Miller -- Day Shift at Freddy's gamemode only!
 	["thephoneguy"]   = false, -- Phone Guy -- Day Shift at Freddy's gamemode only!
 	["davemiller"]   = false, -- Dave Miller -- Day Shift at Freddy's gamemode only!
@@ -71,7 +71,8 @@ DarkRP.disabledDefaults["jobs"] = {
     ["gundealer"] = false, -- Gun Dealer
     ["hobo"]      = false, -- Hobo
     ["mayor"]     = false, -- Mayor
-    ["medic"]     = false, -- Medic
+    ["thief"]     = false, -- Thief
+	["medic"]     = false, -- Medic
     ["drugdealer"]   = false, -- Drug Dealer
 	["nonvipfreddysshooter"]   = false, -- Man in A Candy Cat Suit -- Day Shift at Freddy's gamemode only!
 	["cook"]      = true, -- Cook -- HungerMode only
