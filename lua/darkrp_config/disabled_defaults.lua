@@ -1,5 +1,5 @@
 --[[---------------------------------------------------------------------------
-DarkRP disabled defaults
+Fnaf-DarkRP darkrpmodifications Disabled defaults
 ---------------------------------------------------------------------------
 
 FnaFRP - comes with a bunch of default things:
