@@ -76,7 +76,7 @@ DarkRP.disabledDefaults["jobs"] = {
     ["drugdealer"]   = false, -- Drug Dealer
 	["nonvipfreddysshooter"]   = false, -- Man in A Candy Cat Suit -- Day Shift at Freddy's gamemode only!
 	["cook"]      = true, -- Cook -- HungerMode only
-	["mobboss"]   = false, 
+	["mobboss"]   = false, -- Mob Boss
 }
 
 --[[---------------------------------------------------------------------------
