@@ -65,6 +65,7 @@ DarkRP.disabledDefaults["jobs"] = {
     ["becomechica"]   = false, -- Chica The Chicken
     ["citizen"]   = false, -- Citizen -- Known as Child, in the Day Shift at Freddy's gamemode!
     ["crykids"]   = false, -- Crying Child -- Day Shift at Freddy's gamemode only!
+	["staffonduty2"]      = false, -- Staff on Duty -- Disable if you want to create your own!
 	["ronaldo"]   = false, -- Ronaldo Cuisine -- Day Shift at Freddy's gamemode only!
 	["busdriver"]   = false, -- Bus Driver
 	["cp"]        = false, -- Police Officer
