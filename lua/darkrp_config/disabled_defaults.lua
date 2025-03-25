@@ -38,13 +38,13 @@ DarkRP.disabledDefaults["modules"] = {
 }
 
 --[[---------------------------------------------------------------------------
-Hello? Hello, Hello? Uh, hey! I wanted to record a message for you, to help you get settled in on your first day editing the new Fnaf-DarkRP 2.7.0 – DarkRP Modification Addon 
+Hello? Hello, hello? Uh, hey! I wanted to record a message for you to help you get settled in on your first day editing the new Fnaf-DarkRP 2.7.0 – DarkRP Modification Addon 
 So Uh, yeah, this version has all the custom FNaF jobs added! Pretty cool, huh? Uh, all the jobs have a name next to them, so it 
 should be, uh, easier to figure out which ones you might wanna disable. Alright, uh, hope that helps! Stay safe… and, uh, good luck.
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["jobs"] = {
     ["thepchief"]     = false, -- Police Chief
-    ["headofallfsecurity"]   = false, -- Head Security Guard1
+    ["headofallfsecurity"]   = false, -- Head Security Guard
     ["henrymiller"]   = false, -- Henry Miller -- Day Shift at Freddy's gamemode only!
 	["thephoneguy"]   = false, -- Phone Guy -- Day Shift at Freddy's gamemode only!
 	["davemiller"]   = false, -- Dave Miller -- Day Shift at Freddy's gamemode only!
@@ -77,7 +77,7 @@ DarkRP.disabledDefaults["jobs"] = {
 	["medic"]     = false, -- Medic
     ["drugdealer"]   = false, -- Drug Dealer
 	["nonvipfreddysshooter"]   = false, -- Man in A Candy Cat Suit -- Day Shift at Freddy's gamemode only!
-	["cook"]      = true, -- Cook -- HungerMode only
+	["cook"]      = true, -- Cook -- Hungermode only
 	["mobboss"]   = false, -- Mob Boss
 }
 
