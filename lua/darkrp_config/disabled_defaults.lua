@@ -15,9 +15,10 @@ yeah. You can, uh, copy the medic job from DarkRP and just, uh, paste it into da
 
 
 --[[---------------------------------------------------------------------------
-Ehhh, alright, so, like, here’s da deal, heheheheh. This here’s da list of, uh, modules that are, like, turned off. If it says ‘true,’ boom, disabled. If it says ‘false,’ yeah, it’s workin’. Pretty simple, right? Heheheheh.
-Now, uh, if somethin’ ain't in da list, it’s turned on by default—like my appetite, heheheheh. But, uh, sometimes ya got those fancy external addons, and they might go all ‘HUUUH, where’s my module?’ Y'know, like when ya expect Quagmire to be home, but he’s, uh, busy, heheheheh.
-So, yeah, in those cases, it’ll be real obvious when ya think somethin’ should happen, but, uh… it don’t. Like Meg gettin’ invited to a party—ain’t gonna happen, heheheheh. Anyway, hope that helps, pal.
+The list of modules that are disabled. Set to true to disable, false to enable.
+Modules that are not in this list are enabled by default.
+In some cases some external addons may overwrite one of the modules below and will expect them to be enabled to work.
+In these few cases it will be pretty obvious when you expect something to happen and nothing does.
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["modules"] = {
     ["afk"]              = true,
@@ -37,33 +38,45 @@ DarkRP.disabledDefaults["modules"] = {
 }
 
 --[[---------------------------------------------------------------------------
-Ehhhhh, hey there! Heheheheh. So, uh, yeah, I just wanted to leave ya a little message to, uh, help ya get settled in with the new Family Guy DarkRP Modification thing. Y'know, hehehe, pretty cool, right?
-So, uh, this version’s got, like, all the custom Family Guy jobs added! Freakin’ sweet! Like, ya got Peter, me, obviously… Quagmire, Joe, Brian—eh, even that weirdo Stewie, heheheheh.
-Oh! Oh! And, uh, yeah, all the jobs got names next to ‘em, so, uh, should be real easy to figure out which ones ya wanna turn off if, uh, Meg tries to join. Heheheheh.
-Alright, uh… yeah, hope that helps. Stay safe… and, uh… good luck. Heheheheh.
+Hello? Hello, Hello? Uh, hey! I wanted to record a message for you, to help you get settled in on your first day editing the new Fnaf-DarkRP 2.7.0 – DarkRP Modification Addon 
+So Uh, yeah, this version has all the custom FNaF jobs added! Pretty cool, huh? Uh, all the jobs have a name next to them, so it 
+should be, uh, easier to figure out which ones you might wanna disable. Alright, uh, hope that helps! Stay safe… and, uh, good luck.
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["jobs"] = {
-    ["citizen"]     = false, -- Citizen
-    ["peter"]      = false, -- Peter Griffin
-	["lois"]      = false, -- Lois Griffin
-	["mayor"]      = false, -- Mayor - Adam West
-	["stewie"]      = false, -- Stewie Griffin
-	["brian"]      = false, -- Brian Griffin
-	["quagmire"]      = false, -- Glenn Quagmire
-	["carter"]      = false, -- Carter Pewterschmidt
-	["chief"]      = false, -- Joe Swanson, Chief of Police
-	["terrorist"]      = false, -- Terrorist
-	["hobolead"]      = false, -- Hobo Leader
-	["hobo"]      = false, -- Hobo 
-	["gangster"]      = false, -- Gangster
-    ["kidnapper"]      = false, -- Kidnapper
-	["mobboss"]     = false, -- MobBoss
+    ["thepchief"]     = false, -- Police Chief
+    ["headofallfsecurity"]   = false, -- Head Security Guard1
+    ["henrymiller"]   = false, -- Henry Miller -- Day Shift at Freddy's gamemode only!
+	["thephoneguy"]   = false, -- Phone Guy -- Day Shift at Freddy's gamemode only!
+	["davemiller"]   = false, -- Dave Miller -- Day Shift at Freddy's gamemode only!
+	["algebrateacher"]   = false, -- Old Sport -- Day Shift at Freddy's gamemode only!
+	["freddyssecurity"]   = false, -- Security Guard
+    ["mangle"]   = false, -- Toy Mangle
+    ["zpiz_pizzachef01"] = true, -- Pizza Chef
+	["ztm_trashman"] = false, -- Jimbo Mopson -- Day Shift at Freddy's gamemode only!
+	["freddyff"]   = false, -- Freddy FazBear
+    ["becomebonnie"]   = false, -- Bonnie The Bunny
+    ["jj"]   = false, -- Balloon Girl
+    ["health_inspector"]   = false, -- Health Inspector -- Day Shift at Freddy's gamemode only!
+	["balloonboy"]   = false, -- Balloon Boy
+    ["becomefoxy"]   = false, -- Foxy The Pirate Fox
+    ["toyfreddy"]   = false, -- Toy Freddy
+    ["toybonnie"]   = false, -- Toy Bonnie
+    ["toychica"]   = false, -- Toy Chica
+    ["becomechica"]   = false, -- Chica The Chicken
+    ["citizen"]   = false, -- Citizen -- Known as Child, in the Day Shift at Freddy's gamemode!
+    ["crykids"]   = false, -- Crying Child -- Day Shift at Freddy's gamemode only!
+	["staffonduty2"]      = false, -- Staff on Duty -- Disable if you want to create your own!
+	["ronaldo"]   = false, -- Ronaldo Cuisine -- Day Shift at Freddy's gamemode only!
+	["busdriver"]   = false, -- Bus Driver
+	["cp"]        = false, -- Police Officer
+    ["gangster"]  = false, -- Gangster
+    ["gundealer"] = false, -- Gun Dealer
+    ["hobo"]      = false, -- Hobo
+    ["mayor"]     = false, -- Mayor
     ["thief"]     = false, -- Thief
-	["gundealer"]     = false, -- Gun Dealer
 	["medic"]     = false, -- Medic
     ["drugdealer"]   = false, -- Drug Dealer
-	["thepchief"]   = false, -- Police Chief
-	["cp"]   = false, -- Police Officer
+	["nonvipfreddysshooter"]   = false, -- Man in A Candy Cat Suit -- Day Shift at Freddy's gamemode only!
 	["cook"]      = true, -- Cook -- HungerMode only
 	["mobboss"]   = false, -- Mob Boss
 }
